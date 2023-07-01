@@ -59,7 +59,7 @@ It may take a few minutes for the cells to all be executed, due to the machine l
 ---
 
 ## *ML Model*
-- The library/machine learning model I decided to use on the data was pmdarima/auto_arima. The auto_arima function seeks to identify the most optimal parameters for an ARIMA model, settling on a single fitted ARIMA model.
+- The library/machine learning model I decided to use on the data was pmdarima/auto_arima, with the 'seasonal' parameter set to 'True'. The auto_arima function seeks to identify the most optimal parameters for an ARIMA model, settling on a single fitted ARIMA model.
 
 - ARIMA stands for AutoRegressive Integrated Moving Average. It's a type of time series forecasting model that captures a suite of different standard temporal structures in time series data. Despite the term "machine learning" often being used to describe it, ARIMA is a more traditional statistical model for time series forecasting rather than a machine learning model in the sense of modern usage of the term.
 
