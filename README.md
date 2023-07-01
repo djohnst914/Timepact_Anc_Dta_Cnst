@@ -71,6 +71,8 @@ Here's a breakdown of the components in ARIMA:
 
 - Moving Average (MA): This component represents the dependency between an observation and a residual error from a moving average model applied to lagged observations. The moving average parameters provide a way to model the error term as a linear combination of error terms occurring contemporaneously and at various times in the past.
 
+- [For more info on this](https://alkaline-ml.com/pmdarima/modules/generated/pmdarima.arima.auto_arima.html)
+
 ---
 
 ## *Data*
